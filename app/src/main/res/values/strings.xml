@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Surprise To Do</string>
+    <string name="action_about">About</string>
+    <string name="action_add">Add</string>
+    <string name="action_addtask">Write new task</string>
+    <string name="action_surprise">Generate surprises</string>
+    <string name="action_remove">Remove selected tasks</string>
+    <string name="basic">
+        Coding exercise about developing a backend and frontend application which contains:
+          Create
+        - List
+        - Delete
+        - Update
+    </string>
+    <string name="tools">Written in Java with Android Studio</string>
+
+</resources>

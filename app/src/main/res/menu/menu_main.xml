@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+    <!-- Toolbar settings -->
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    />
+
+    <!-- Remove Action -->
+    <item
+        android:id="@+id/act_remove"
+        android:title="@string/action_remove"
+        android:orderInCategory="100"
+    />
+
+    <!-- About Action -->
+    <item
+        android:id="@+id/act_about"
+        android:title="@string/action_about"
+        android:orderInCategory="100"
+    />
+
+    <!-- Spoiler! -->
+    <item
+        android:id="@+id/act_surprise"
+        android:title="@string/action_surprise"
+        android:orderInCategory="100"
+    />
+
+</menu>
